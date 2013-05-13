@@ -1,0 +1,77 @@
+.wrapper{
+
+	position: relative;
+	max-width: 980px;
+	background-color: rgba(255,255,255, 1);
+	padding: 1em;
+	margin: 7em auto 4em auto;
+}
+
+body{
+background: #f8f3ef;
+
+}
+  
+.empresa {
+    
+    font-family: arial, helvetica, serif;
+	font-size: 35pt;
+	font-weight:bold;	
+	float: left;
+	position: relative;
+
+}
+
+.Blog {
+    font-family: arial, helvetica, serif;
+	font-size: 30pt;
+	font-style: italic;
+	font-weight: normal;
+
+}
+
+* {
+	list-style: none;
+}
+
+header {
+	max-width: 960px;
+
+}
+
+aside {
+
+	
+	float: left;
+	width: 320px ;
+	position: relative;
+	background-color: #f8f8f8;
+	list-style: none;
+	display: inline;
+}
+section {
+	float: left;
+	width: 550px;
+	position: relative;
+	background-color: rgba(255,255,255, 1);
+	display: inline;
+
+}
+
+.arg {
+	max-width: 200px;
+	float: right;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+.clear {
+	clear: both !important;
+}
