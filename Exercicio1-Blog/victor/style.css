@@ -15,18 +15,23 @@ background: #f8f3ef;
 .empresa {
     
     font-family: arial, helvetica, serif;
-	font-size: 35pt;
+	font-size: 30pt;
 	font-weight:bold;	
 	float: left;
 	position: relative;
 
 }
 
-.Blog {
+.blog {
     font-family: arial, helvetica, serif;
-	font-size: 30pt;
+	font-size: 25pt;
 	font-style: italic;
 	font-weight: normal;
+	padding-left: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: 1px solid black;
 
 }
 
@@ -36,13 +41,21 @@ background: #f8f3ef;
 
 header {
 	max-width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
 
+.menu {
+	max-width: 960px;
+	
 }
 
 aside {
 
 	
-	float: left;
+	float: right;
 	width: 320px ;
 	position: relative;
 	background-color: #f8f8f8;
@@ -51,7 +64,7 @@ aside {
 }
 section {
 	float: left;
-	width: 550px;
+	width: 600px;
 	position: relative;
 	background-color: rgba(255,255,255, 1);
 	display: inline;
@@ -59,17 +72,14 @@ section {
 }
 
 .arg {
-	max-width: 200px;
+	max-width: 250px;
 	float: right;
 	position: relative;
+	font-style: italic;
+	text-align: right;
+	font-family: droid serif; 
+
 }
-
-
-
-
-
-
-
 
 
 .clear {
